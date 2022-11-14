@@ -11,7 +11,7 @@ def db_create():
 	# engine = create_engine("postgresql://postgres:1234@localhost:5432/chatbot", echo = False)
 		
 	# Heroku
-    engine = create_engine("postgresql://shkegbfeivphah:183a9a9bcd13ff5522b75d240cca5335d21d0f905c1a181d15eddb6f24d39915@ec2-44-209-57-4.compute-1.amazonaws.com:5432/d4oja7hb5806v7", echo = False)
+    engine = create_engine("postgres://agabsenbkxuxdf:2f77e7231154a9f51e14e5e9a34a051571f56b627a315df373a5feae4f9f081c@ec2-52-1-17-228.compute-1.amazonaws.com:5432/d5kev8cr4rrj94", echo = False)
 
     engine.connect()
     engine.execute("""
